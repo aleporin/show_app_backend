@@ -20,6 +20,10 @@ module.exports = {
         type: Sequelize.STRING(150),
         allowNull: false
       },
+      image: {
+        type: Sequelize.STRING(100),
+        allowNull: false
+      },
       watched: {
         type: Sequelize.BOOLEAN,
         allowNull: false

@@ -31,6 +31,11 @@ module.exports = {
         allowNull: false,
         onDelete: 'CASCADE'
       },
+      displayName: {
+        type: Sequelize.STRING(500),
+        allowNull: false,
+        onDelete: 'CASCADE'
+      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE

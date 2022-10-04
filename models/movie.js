@@ -17,6 +17,7 @@ module.exports = (sequelize, DataTypes) => {
       description: { type: DataTypes.STRING(2000), allowNull: false },
       source: { type: DataTypes.STRING(150), allowNull: false },
       watched: { type: DataTypes.BOOLEAN, allowNull: false },
+      image: { type: DataTypes.STRING(100), allowNull: false },
       userId: {
         type: DataTypes.INTEGER,
         allowNull: false,
